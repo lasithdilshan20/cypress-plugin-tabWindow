@@ -1,0 +1,23 @@
+{
+  "name": "cypress-plugin-tabwindow",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx cypress run --record --key a0e6cc5d-3c98-4403-846e-015312895e73"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasithdilshan20/cypress-plugin-tabWindow.git"
+  },
+  "author": "Lasitha W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasithdilshan20/cypress-plugin-tabWindow/issues"
+  },
+  "homepage": "https://github.com/lasithdilshan20/cypress-plugin-tabWindow#readme",
+  "dependencies": {
+    "cypress": "^12.17.3"
+  }
+}
