@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Handling Demo</title>
+</head>
+<body>
+<h1>Window Handling Demo</h1>
+<p>Click on the links and buttons to open new browser windows:</p>
+
+<a href="https://www.example.com" target="_blank">Open Example.com in New Window</a><br>
+<a href="https://www.google.com" target="_blank">Open Google.com in New Window</a><br>
+
+<button id="openWindowButton">Open New Window</button>
+<button id="openLocationButton">Change Window Location</button>
+
+<script>
+    document.getElementById("openWindowButton").addEventListener("click", () => {
+        window.open("https://www.wikipedia.org");
+    });
+
+    document.getElementById("openLocationButton").addEventListener("click", () => {
+        window.location.href = "https://www.github.com";
+    });
+</script>
+</body>
+</html>
